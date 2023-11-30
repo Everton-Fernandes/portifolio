@@ -11,7 +11,7 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
-// 40:51 min do video https://www.youtube.com/watch?v=0fYi8SGA20k
+// 1:23 do video https://www.youtube.com/watch?v=0fYi8SGA20k
 const App = () => {
   return (
     <BrowserRouter>
