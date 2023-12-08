@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Profissional altamente qualificado com vasta experiência em desenvolvimento, destacando-se no uso de tecnologias como Xamarin e C#. Demonstrado entendimento aprofundado dos princípios de SOLID, assim como das arquiteturas MVVM (Model-View-ViewModel) e MVC (Model-View-Controller). Experiência prática na aplicação destes conhecimentos utilizando o framework .NET Core. Sólida formação complementada por conquistas notáveis em cargos de liderança e análise no setor público e privado.
+        Profissional altamente qualificado com vasta experiência em desenvolvimento, destacando-se no uso de tecnologias como Xamarin e C#. Possui entendimento aprofundado dos princípios de SOLID, assim como das arquiteturas MVVM (Model-View-ViewModel) e MVC (Model-View-Controller). Experiência prática na aplicação destes conhecimentos utilizando o framework .NET Core. Sólida formação complementada por conquistas notáveis em cargos de liderança e análise no setor público e privado.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

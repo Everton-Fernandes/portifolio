@@ -231,7 +231,7 @@ import {
     {
       name: "Site Previsão do tempo",
       description:
-        "Web site utilizando uma API externa de tempo, com uma buscar por cidade e com as principais capitais do Brasil",
+        "Web site utilizando uma API externa de tempo, com uma busca por cidade e com as principais capitais do Brasil",
       tags: [
         {
           name: "reactJS",
