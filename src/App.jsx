@@ -4,14 +4,11 @@ import {
   About,
   Contact,
   Experience,
-  Feedbacks,
   Hero,
   Navbar,
   Tech,
   Works,
-  StarsCanvas,
 } from "./components";
-// 1:23 do video https://www.youtube.com/watch?v=0fYi8SGA20k
 const App = () => {
   return (
     <BrowserRouter>
@@ -24,10 +21,8 @@ const App = () => {
         <Experience/>
         <Tech/>
         <Works/>
-        <Feedbacks/>
         <div className="relative z-0">
           <Contact/>
-          <StarsCanvas/>
         </div>
       </div>
     </BrowserRouter>

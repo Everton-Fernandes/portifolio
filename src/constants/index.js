@@ -4,57 +4,62 @@ import {
     creator,
     web,
     javascript,
-    typescript,
+    Java,
+    CSharp,
+    xamarin,
     html,
     css,
     reactjs,
-    redux,
+    MySQL,
     tailwind,
-    nodejs,
-    mongodb,
+    springboot,
+    Illustrator,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    photoshop,
+    autocad,
+    CPOS,
+    JR,
+    PMSV,
+    verion,
+    URF,
+    PMI,
+    PrevisaoTempo,
+    Portifolio,
+    gerenciador,
     threejs,
   } from "../assets";
   
   export const navLinks = [
     {
       id: "about",
-      title: "About",
+      title: "Sobre",
     },
     {
       id: "work",
-      title: "Work",
+      title: "Experiência",
     },
     {
       id: "contact",
-      title: "Contact",
+      title: "Contato",
     },
   ];
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Desenvolvedor Web",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Desenvolvedor Mobile",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Desenvolvedor Backend",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Criador de Conteúdo",
       icon: creator,
     },
   ];
@@ -65,6 +70,10 @@ import {
       icon: html,
     },
     {
+      name: "Xamarin",
+      icon: xamarin,
+    },
+    {
       name: "CSS 3",
       icon: css,
     },
@@ -73,28 +82,32 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Java",
+      icon: Java,
+    },
+    {
+      name: "CSharp",
+      icon: CSharp,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "MySQL",
+      icon: MySQL,
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "SpringBoot",
+      icon: springboot,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Illustrator",
+      icon: Illustrator,
     },
     {
       name: "Three JS",
@@ -108,63 +121,81 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Desenvolvedor",
+      company_name: "VERION AGRÍCULTURA",
+      icon: verion,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Maio de 2021 - Novembro de 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Tenho uma ampla experiência no desenvolvimento Mobile, utilizando tecnologias como Xamarin e C#.",
+        "Entendimento dos princípios de design SOLID, bem como das arquiteturas MVVM (Model-View-ViewModel) e MVC (Model-View-Controller)",
+        "Minha experiência se estende ao uso do framework .NET Core, onde pude aplicar esses conhecimentos de forma prática e eficaz.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Analista de comércio exterior",
+      company_name: "URF LOGÍSTICA",
+      icon: URF,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Janeiro de 2019 a Junho de 2019.",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Conhecimentos gerais em importação e exportação, perpassando pelos trâmites operacionais ligados à emissão de DUE e de DI",
+        "Rotinas de análises documentais (fatura, packing list e certificados de origem)",
+        "Conhecimento pleno na extração de declarações de importação e relacionamento de dados para ingresso de demandas judiciais (pleito de restituição de tributos - Taxa SISCOMEX)",
+      ],
+    },
+    {
+      title: "Diretor de departamento de obras públicas",
+      company_name: "PREFEITURA MUNICIPAL DE ITANHAÉM",
+      icon: PMI,
+      iconBg: "#E6DEDD",
+      date: "Julho de 2016 - Maio de 2018",
+      points: [
+        "Supervisão e fiscalização de projetos e obras em instituições públicas, incluindo escolas, hospitais e praças.",
+        "Realização de levantamentos quantitativos, cotações de insumos e elaboração de composições de custo.",
+        "Participação ativa na elaboração de orçamentos, memórias de cálculo e cronogramas físico-financeiros.",
+        "Profundo conhecimento em adequação e regularização de projetos, bem como em compatibilização de projetos",
+      ],
+    },
+    {
+      title: "Engenheiro civil",
+      company_name: "CPOS - COMPANHIA PAULISTA DE OBRAS E SERVIÇOS",
+      icon: CPOS,
+      iconBg: "#E6DEDD",
+      date: "Fevereiro de 2014 - Fevereiro de 2016",
+      points: [
+        "Contribuição ativa para levantamentos quantitativos, cotações de insumos e composições de custo.",
+        "Participação na elaboração de orçamentos, memórias de cálculo e cronogramas físico-financeiros.",
+        "Contribuição na alimentação de planilhas estaduais com insumos e composições.",
+      ],
+    },
+    {
+      title: "Estagiário",
+      company_name: "CONSTRUTORA E INCORPORADORA JR",
+      icon: JR,
+      iconBg: "#E6DEDD",
+      date: "Abril de 2012 - Abril de 2013",
+      points: [
+        "Acompanhamento e fiscalização de projetos desde a fase de fundação até o acabamento, incluindo a gestão de equipes próprias e terceirizadas.",
+        "Participação em auditorias relacionadas ao Programa Brasileiro da Qualidade e Produtividade do Habitat (PBQP-H).",
+        "Elaboração de orçamentos para maquinários necessários para a eficaz execução das obras.",
+      ],
+    },
+    {
+      title: "Estagiário",
+      company_name: "PREFEITURA MUNICIPAL DE SÃO VICENTE",
+      icon: PMSV,
+      iconBg: "#E6DEDD",
+      date: "Janeiro de 2010 - Janeiro de 2012",
+      points: [
+        "Acompanhamento e fiscalização de projetos relacionados à Companhia de Desenvolvimento Habitacional e Urbano do Estado de São Paulo (CDHU) e infraestrutura.",
+        "Análise e compatibilização de projetos topográficos.",
+        "Conhecimento em processos de regularização fundiária",
+        "habilidades na elaboração de maquetes eletrônicas em AutoCAD.",
       ],
     },
   ];
@@ -198,33 +229,12 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Site Previsão do tempo",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web site utilizando uma API externa de tempo, com uma buscar por cidade e com as principais capitais do Brasil",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
+          name: "reactJS",
           color: "blue-text-gradient",
         },
         {
@@ -232,24 +242,45 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: PrevisaoTempo,
+      source_code_link: "https://github.com/Everton-Fernandes/previsaoTempo",
     },
     {
-      name: "Trip Guide",
+      name: "Portifólio",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Web site apresentando os meus trabalhos, projetos e realizações que destacam as habilidades, competências e experiências. ",
       tags: [
         {
-          name: "nextjs",
+          name: "reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "threejs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Portifolio,
+      source_code_link: "https://github.com/Everton-Fernandes/portifolio",
+    },
+    {
+      name: "Gerenciador",
+      description:
+        "Web site gerenciador de projetos e serviços. Intuitivo, oferece ferramentas eficientes para planejamento de tarefas e resultados.",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
           color: "green-text-gradient",
         },
         {
@@ -257,8 +288,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: gerenciador,
+      source_code_link: "https://github.com/Everton-Fernandes/gerenciador",
     },
   ];
   
